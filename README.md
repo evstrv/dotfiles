@@ -26,3 +26,19 @@
 - [PSReadLine](https://docs.microsoft.com/en-us/powershell/module/psreadline/) - Cmdlets for customizing the editing environment, used for autocompletion
 - [z](https://www.powershellgallery.com/packages/z) - Directory jumper
 - [PSFzf](https://github.com/kelleyma49/PSFzf) - Fuzzy finder
+
+## Zed setup (Windows) (install from [here](https://github.com/deevus/zed-windows-builds))
+
+### Requirements
+
+- [Scoop](https://scoop.sh/) - A command-line installer
+
+>  Maybe need **C** compiler (update later)
+
+## Zed setup (Windows) (build from [source](https://github.com/zed-industries/zed/blob/main/docs/src/development/windows.md))
+
+### Requirements
+
+- [Rust](https://www.rust-lang.org/tools/install) - A language empowering everyone to build reliable and efficient software
+- [CMake](https://cmake.org/download/) - **C** compiler
+- [Cargo](https://doc.rust-lang.org/cargo/) - **Rust** package manager
