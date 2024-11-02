@@ -27,15 +27,7 @@
 - [z](https://www.powershellgallery.com/packages/z) - Directory jumper
 - [PSFzf](https://github.com/kelleyma49/PSFzf) - Fuzzy finder
 
-## Zed setup (Windows) (install from [here](https://github.com/deevus/zed-windows-builds))
-
-### Requirements
-
-- [Scoop](https://scoop.sh/) - A command-line installer
-
->  Maybe need **C** compiler (update later)
-
-## Zed setup (Windows) (build from [source](https://github.com/zed-industries/zed/blob/main/docs/src/development/windows.md))
+## Zed setup (Windows) (install from [here](https://github.com/deevus/zed-windows-builds) or build from [source](https://github.com/zed-industries/zed/blob/main/docs/src/development/windows.md))
 
 ### Requirements
 
