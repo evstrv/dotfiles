@@ -7,7 +7,7 @@ $git_branch\
     at \
     $directory\
 )\
-$cmd_duration\
+$cmd_duration\ы
 (\
     via \
     $python\

@@ -1,0 +1,55 @@
+{
+  // Terminal
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "terminal.integrated.fontFamily": "'FiraCode Nerd Font', monospace",
+
+  // Formatting
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "prettier.singleQuote": true,
+  "prettier.jsxSingleQuote": true,
+  "javascript.preferences.quoteStyle": "single",
+  "typescript.preferences.quoteStyle": "single",
+  "html.completion.attributeDefaultValue": "singlequotes",
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {},
+
+  // Editor
+  "editor.tabSize": 2,
+  "editor.fontLigatures": true,
+  "editor.fontFamily": "Essential PragmataPro, PragmataPro",
+  "editor.fontWeight": "normal",
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": "keyword.other.dotenv",
+        "settings": {
+          "foreground": "#FF000005"
+        }
+      }
+    ]
+  },
+
+  // Files and line
+  "files.eol": "\n",
+  "diffEditor.ignoreTrimWhitespace": false,
+
+  // Workspace
+  "workbench.startupEditor": "none",
+  "workbench.editor.empty.hint": "hidden",
+  "workbench.colorTheme": "Monokai Pro (Filter Octagon)",
+
+  // Fonts for extensions
+  "apc.font.family": "Essential PragmataPro",
+  "apc.monospace.font.family": "Essential PragmataPro"
+}
