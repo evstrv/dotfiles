@@ -1,4 +1,6 @@
-Invoke-Expression (&starship init powershell)
+# Init starship/oh-my-posh
+# Invoke-Expression (&starship init powershell)
+Invoke-Expression (&oh-my-posh init pwsh) 
 
 Import-Module -Name Terminal-Icons
 
@@ -15,6 +17,7 @@ Set-PsFzfOption -PSReadlineChordProvider 'Ctrl+f' -PSReadlineChordReverseHistory
 
 # Env
 $env:STARSHIP_CONFIG = "$HOME\.config\starship\starship.toml"
+$env:POSH_THEME = "$HOME\.config\oh-my-posh\oh-my-posh.omp.json"
 
 # Alias
 Set-Alias -Name vim -Value nvim
